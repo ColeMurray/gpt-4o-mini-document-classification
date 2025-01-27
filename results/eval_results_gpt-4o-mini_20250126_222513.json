@@ -1,0 +1,1431 @@
+{
+  "metrics": {
+    "overall": {
+      "total_samples": 160,
+      "correct": 104,
+      "invalid": 4,
+      "accuracy": 0.65,
+      "invalid_percentage": 2.5
+    },
+    "per_class": {
+      "letter": {
+        "total": 10,
+        "correct": 7,
+        "accuracy": 0.7,
+        "samples": [
+          {
+            "dataset_index": 1314,
+            "true_label": "letter",
+            "predicted_label": "letter",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 35759,
+            "true_label": "letter",
+            "predicted_label": "letter",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 37026,
+            "true_label": "letter",
+            "predicted_label": "letter",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 6995,
+            "true_label": "letter",
+            "predicted_label": "letter",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 33443,
+            "true_label": "letter",
+            "predicted_label": "memo",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 37433,
+            "true_label": "letter",
+            "predicted_label": "scientific report",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 17787,
+            "true_label": "letter",
+            "predicted_label": "memo",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 39952,
+            "true_label": "letter",
+            "predicted_label": "letter",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 29563,
+            "true_label": "letter",
+            "predicted_label": "letter",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 35209,
+            "true_label": "letter",
+            "predicted_label": "letter",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "form": {
+        "total": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "samples": [
+          {
+            "dataset_index": 17445,
+            "true_label": "form",
+            "predicted_label": "form",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 39137,
+            "true_label": "form",
+            "predicted_label": "letter",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 14098,
+            "true_label": "form",
+            "predicted_label": "form",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 39416,
+            "true_label": "form",
+            "predicted_label": "invoice",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 28648,
+            "true_label": "form",
+            "predicted_label": "INVALID",
+            "correct": false,
+            "invalid": true,
+            "api_success": 0.0
+          },
+          {
+            "dataset_index": 13556,
+            "true_label": "form",
+            "predicted_label": "INVALID",
+            "correct": false,
+            "invalid": true,
+            "api_success": 0.0
+          },
+          {
+            "dataset_index": 24053,
+            "true_label": "form",
+            "predicted_label": "INVALID",
+            "correct": false,
+            "invalid": true,
+            "api_success": 0.0
+          },
+          {
+            "dataset_index": 29989,
+            "true_label": "form",
+            "predicted_label": "scientific report",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 6201,
+            "true_label": "form",
+            "predicted_label": "handwritten",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 11637,
+            "true_label": "form",
+            "predicted_label": "memo",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "email": {
+        "total": 10,
+        "correct": 10,
+        "accuracy": 1.0,
+        "samples": [
+          {
+            "dataset_index": 16814,
+            "true_label": "email",
+            "predicted_label": "email",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 31333,
+            "true_label": "email",
+            "predicted_label": "email",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 17545,
+            "true_label": "email",
+            "predicted_label": "email",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 5937,
+            "true_label": "email",
+            "predicted_label": "email",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 31931,
+            "true_label": "email",
+            "predicted_label": "email",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 36778,
+            "true_label": "email",
+            "predicted_label": "email",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 20485,
+            "true_label": "email",
+            "predicted_label": "email",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 18500,
+            "true_label": "email",
+            "predicted_label": "email",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 29448,
+            "true_label": "email",
+            "predicted_label": "email",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 11113,
+            "true_label": "email",
+            "predicted_label": "email",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "handwritten": {
+        "total": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "samples": [
+          {
+            "dataset_index": 23006,
+            "true_label": "handwritten",
+            "predicted_label": "handwritten",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 537,
+            "true_label": "handwritten",
+            "predicted_label": "handwritten",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 23677,
+            "true_label": "handwritten",
+            "predicted_label": "handwritten",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 12248,
+            "true_label": "handwritten",
+            "predicted_label": "handwritten",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 15372,
+            "true_label": "handwritten",
+            "predicted_label": "handwritten",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 13765,
+            "true_label": "handwritten",
+            "predicted_label": "handwritten",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 36490,
+            "true_label": "handwritten",
+            "predicted_label": "handwritten",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 37310,
+            "true_label": "handwritten",
+            "predicted_label": "form",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 19987,
+            "true_label": "handwritten",
+            "predicted_label": "handwritten",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 7701,
+            "true_label": "handwritten",
+            "predicted_label": "handwritten",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "advertisement": {
+        "total": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "samples": [
+          {
+            "dataset_index": 37048,
+            "true_label": "advertisement",
+            "predicted_label": "advertisement",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 28336,
+            "true_label": "advertisement",
+            "predicted_label": "invoice",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 22047,
+            "true_label": "advertisement",
+            "predicted_label": "advertisement",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 4143,
+            "true_label": "advertisement",
+            "predicted_label": "advertisement",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 34377,
+            "true_label": "advertisement",
+            "predicted_label": "advertisement",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 17977,
+            "true_label": "advertisement",
+            "predicted_label": "advertisement",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 5132,
+            "true_label": "advertisement",
+            "predicted_label": "advertisement",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 12429,
+            "true_label": "advertisement",
+            "predicted_label": "advertisement",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 32182,
+            "true_label": "advertisement",
+            "predicted_label": "advertisement",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 7466,
+            "true_label": "advertisement",
+            "predicted_label": "advertisement",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "scientific report": {
+        "total": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "samples": [
+          {
+            "dataset_index": 12246,
+            "true_label": "scientific report",
+            "predicted_label": "scientific publication",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 13055,
+            "true_label": "scientific report",
+            "predicted_label": "memo",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 5589,
+            "true_label": "scientific report",
+            "predicted_label": "memo",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 20775,
+            "true_label": "scientific report",
+            "predicted_label": "scientific report",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 3,
+            "true_label": "scientific report",
+            "predicted_label": "memo",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 29325,
+            "true_label": "scientific report",
+            "predicted_label": "form",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 1327,
+            "true_label": "scientific report",
+            "predicted_label": "form",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 39077,
+            "true_label": "scientific report",
+            "predicted_label": "scientific report",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 4189,
+            "true_label": "scientific report",
+            "predicted_label": "scientific report",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 12629,
+            "true_label": "scientific report",
+            "predicted_label": "scientific report",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "scientific publication": {
+        "total": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "samples": [
+          {
+            "dataset_index": 35267,
+            "true_label": "scientific publication",
+            "predicted_label": "scientific publication",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 14591,
+            "true_label": "scientific publication",
+            "predicted_label": "form",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 5873,
+            "true_label": "scientific publication",
+            "predicted_label": "scientific publication",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 25714,
+            "true_label": "scientific publication",
+            "predicted_label": "scientific publication",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 17417,
+            "true_label": "scientific publication",
+            "predicted_label": "scientific publication",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 20440,
+            "true_label": "scientific publication",
+            "predicted_label": "scientific publication",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 1720,
+            "true_label": "scientific publication",
+            "predicted_label": "scientific publication",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 2544,
+            "true_label": "scientific publication",
+            "predicted_label": "scientific publication",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 24105,
+            "true_label": "scientific publication",
+            "predicted_label": "scientific publication",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 39741,
+            "true_label": "scientific publication",
+            "predicted_label": "scientific publication",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "specification": {
+        "total": 10,
+        "correct": 5,
+        "accuracy": 0.5,
+        "samples": [
+          {
+            "dataset_index": 18597,
+            "true_label": "specification",
+            "predicted_label": "specification",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 18487,
+            "true_label": "specification",
+            "predicted_label": "specification",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 4950,
+            "true_label": "specification",
+            "predicted_label": "specification",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 24104,
+            "true_label": "specification",
+            "predicted_label": "scientific publication",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 17882,
+            "true_label": "specification",
+            "predicted_label": "scientific publication",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 9200,
+            "true_label": "specification",
+            "predicted_label": "specification",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 36150,
+            "true_label": "specification",
+            "predicted_label": "specification",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 5516,
+            "true_label": "specification",
+            "predicted_label": "scientific publication",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 31255,
+            "true_label": "specification",
+            "predicted_label": "form",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 20861,
+            "true_label": "specification",
+            "predicted_label": "scientific publication",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "file folder": {
+        "total": 10,
+        "correct": 5,
+        "accuracy": 0.5,
+        "samples": [
+          {
+            "dataset_index": 34162,
+            "true_label": "file folder",
+            "predicted_label": "file folder",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 34154,
+            "true_label": "file folder",
+            "predicted_label": "file folder",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 20464,
+            "true_label": "file folder",
+            "predicted_label": "form",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 27033,
+            "true_label": "file folder",
+            "predicted_label": "memo",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 11388,
+            "true_label": "file folder",
+            "predicted_label": "file folder",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 38500,
+            "true_label": "file folder",
+            "predicted_label": "file folder",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 34747,
+            "true_label": "file folder",
+            "predicted_label": "form",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 24996,
+            "true_label": "file folder",
+            "predicted_label": "file folder",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 16789,
+            "true_label": "file folder",
+            "predicted_label": "letter",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 15165,
+            "true_label": "file folder",
+            "predicted_label": "form",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "news article": {
+        "total": 10,
+        "correct": 8,
+        "accuracy": 0.8,
+        "samples": [
+          {
+            "dataset_index": 31689,
+            "true_label": "news article",
+            "predicted_label": "news article",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 10898,
+            "true_label": "news article",
+            "predicted_label": "news article",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 17243,
+            "true_label": "news article",
+            "predicted_label": "scientific publication",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 37468,
+            "true_label": "news article",
+            "predicted_label": "news article",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 37631,
+            "true_label": "news article",
+            "predicted_label": "scientific publication",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 31141,
+            "true_label": "news article",
+            "predicted_label": "news article",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 23225,
+            "true_label": "news article",
+            "predicted_label": "news article",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 25102,
+            "true_label": "news article",
+            "predicted_label": "news article",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 11475,
+            "true_label": "news article",
+            "predicted_label": "news article",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 10732,
+            "true_label": "news article",
+            "predicted_label": "news article",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "budget": {
+        "total": 10,
+        "correct": 4,
+        "accuracy": 0.4,
+        "samples": [
+          {
+            "dataset_index": 1634,
+            "true_label": "budget",
+            "predicted_label": "form",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 25082,
+            "true_label": "budget",
+            "predicted_label": "budget",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 34742,
+            "true_label": "budget",
+            "predicted_label": "scientific publication",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 14240,
+            "true_label": "budget",
+            "predicted_label": "invoice",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 15634,
+            "true_label": "budget",
+            "predicted_label": "budget",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 14887,
+            "true_label": "budget",
+            "predicted_label": "budget",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 30934,
+            "true_label": "budget",
+            "predicted_label": "invoice",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 18718,
+            "true_label": "budget",
+            "predicted_label": "invoice",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 21262,
+            "true_label": "budget",
+            "predicted_label": "budget",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 11953,
+            "true_label": "budget",
+            "predicted_label": "invoice",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "invoice": {
+        "total": 10,
+        "correct": 6,
+        "accuracy": 0.6,
+        "samples": [
+          {
+            "dataset_index": 39421,
+            "true_label": "invoice",
+            "predicted_label": "letter",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 6824,
+            "true_label": "invoice",
+            "predicted_label": "invoice",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 37515,
+            "true_label": "invoice",
+            "predicted_label": "invoice",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 15783,
+            "true_label": "invoice",
+            "predicted_label": "form",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 21956,
+            "true_label": "invoice",
+            "predicted_label": "invoice",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 25429,
+            "true_label": "invoice",
+            "predicted_label": "INVALID",
+            "correct": false,
+            "invalid": true,
+            "api_success": 0.0
+          },
+          {
+            "dataset_index": 22186,
+            "true_label": "invoice",
+            "predicted_label": "invoice",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 33453,
+            "true_label": "invoice",
+            "predicted_label": "letter",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 39436,
+            "true_label": "invoice",
+            "predicted_label": "invoice",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 3076,
+            "true_label": "invoice",
+            "predicted_label": "invoice",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "presentation": {
+        "total": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "samples": [
+          {
+            "dataset_index": 8408,
+            "true_label": "presentation",
+            "predicted_label": "advertisement",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 18084,
+            "true_label": "presentation",
+            "predicted_label": "news article",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 14261,
+            "true_label": "presentation",
+            "predicted_label": "memo",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 34320,
+            "true_label": "presentation",
+            "predicted_label": "presentation",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 21882,
+            "true_label": "presentation",
+            "predicted_label": "scientific publication",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 11845,
+            "true_label": "presentation",
+            "predicted_label": "presentation",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 29922,
+            "true_label": "presentation",
+            "predicted_label": "news article",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 15541,
+            "true_label": "presentation",
+            "predicted_label": "scientific publication",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 31711,
+            "true_label": "presentation",
+            "predicted_label": "memo",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 834,
+            "true_label": "presentation",
+            "predicted_label": "scientific publication",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "questionnaire": {
+        "total": 10,
+        "correct": 8,
+        "accuracy": 0.8,
+        "samples": [
+          {
+            "dataset_index": 12346,
+            "true_label": "questionnaire",
+            "predicted_label": "questionnaire",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 39236,
+            "true_label": "questionnaire",
+            "predicted_label": "questionnaire",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 28705,
+            "true_label": "questionnaire",
+            "predicted_label": "questionnaire",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 30610,
+            "true_label": "questionnaire",
+            "predicted_label": "questionnaire",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 35262,
+            "true_label": "questionnaire",
+            "predicted_label": "questionnaire",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 35673,
+            "true_label": "questionnaire",
+            "predicted_label": "questionnaire",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 32139,
+            "true_label": "questionnaire",
+            "predicted_label": "questionnaire",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 29933,
+            "true_label": "questionnaire",
+            "predicted_label": "questionnaire",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 16589,
+            "true_label": "questionnaire",
+            "predicted_label": "handwritten",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 12050,
+            "true_label": "questionnaire",
+            "predicted_label": "memo",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "resume": {
+        "total": 10,
+        "correct": 9,
+        "accuracy": 0.9,
+        "samples": [
+          {
+            "dataset_index": 18733,
+            "true_label": "resume",
+            "predicted_label": "resume",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 26642,
+            "true_label": "resume",
+            "predicted_label": "resume",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 25456,
+            "true_label": "resume",
+            "predicted_label": "resume",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 39602,
+            "true_label": "resume",
+            "predicted_label": "resume",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 19820,
+            "true_label": "resume",
+            "predicted_label": "resume",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 35785,
+            "true_label": "resume",
+            "predicted_label": "resume",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 25430,
+            "true_label": "resume",
+            "predicted_label": "resume",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 25038,
+            "true_label": "resume",
+            "predicted_label": "scientific publication",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 4201,
+            "true_label": "resume",
+            "predicted_label": "resume",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 38180,
+            "true_label": "resume",
+            "predicted_label": "resume",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      },
+      "memo": {
+        "total": 10,
+        "correct": 7,
+        "accuracy": 0.7,
+        "samples": [
+          {
+            "dataset_index": 16026,
+            "true_label": "memo",
+            "predicted_label": "memo",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 12663,
+            "true_label": "memo",
+            "predicted_label": "memo",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 1971,
+            "true_label": "memo",
+            "predicted_label": "memo",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 18869,
+            "true_label": "memo",
+            "predicted_label": "memo",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 17016,
+            "true_label": "memo",
+            "predicted_label": "memo",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 36976,
+            "true_label": "memo",
+            "predicted_label": "memo",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 24929,
+            "true_label": "memo",
+            "predicted_label": "letter",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 33626,
+            "true_label": "memo",
+            "predicted_label": "letter",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 37210,
+            "true_label": "memo",
+            "predicted_label": "memo",
+            "correct": true,
+            "invalid": false,
+            "api_success": 1.0
+          },
+          {
+            "dataset_index": 13525,
+            "true_label": "memo",
+            "predicted_label": "letter",
+            "correct": false,
+            "invalid": false,
+            "api_success": 1.0
+          }
+        ]
+      }
+    }
+  },
+  "config": {
+    "model_name": "gpt-4o-mini",
+    "samples_per_class": 10,
+    "temperature": 0.0,
+    "max_tokens": 20,
+    "max_retries": 3
+  },
+  "timestamp": "2025-01-26T22:25:13.081714",
+  "label_names": [
+    "letter",
+    "form",
+    "email",
+    "handwritten",
+    "advertisement",
+    "scientific report",
+    "scientific publication",
+    "specification",
+    "file folder",
+    "news article",
+    "budget",
+    "invoice",
+    "presentation",
+    "questionnaire",
+    "resume",
+    "memo"
+  ]
+}
